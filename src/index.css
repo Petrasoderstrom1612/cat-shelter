@@ -9,6 +9,7 @@ body {
   align-items: center;
   font-family: 'Inter', sans-serif;
   background-color: whitesmoke;
+  justify-content: center;
 }
 
 .contacts {
