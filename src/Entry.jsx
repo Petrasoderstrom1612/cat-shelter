@@ -1,5 +1,6 @@
 import React from 'react'
 import phoneIcon from "/src/images/phone-icon.png"
+import mailIcon from "/src/images/mail-icon.png"
 
 export default function Entry(props) {
     console.log(props)
@@ -19,7 +20,7 @@ export default function Entry(props) {
         </div>
         <div className="info-group">
             <img
-                src="./src/images/mail-icon.png"
+                src={mailIcon}
                 alt="mail icon"
             />
             <p>{props.email}</p>
